@@ -6,7 +6,7 @@
 #' @param func the function whose integral we are estimating
 #' @return Estimated integral given by Monte Carlo integration.
 #' @export
-calc_mcint <- function(N, x_l = 0, x_u = 1, func = function(x) x^2)
+calc_mcint = function(N = 100, x_l = 0, x_u = 1, func = function(x) x^2)
 {
 
   # Find lower and upper limits for y

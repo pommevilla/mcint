@@ -4,7 +4,7 @@ A basic R code implementing a Monte Carlo integral simulation.
 
 ## Description
 
-There are two functions in mcint, calc_mcint and is_under.  calc_mcint calculates a Monte Carlo integral of a provided function with a provided number of trials.  is_under is an internal helper function called in calc_mcint.
+There are two functions in `mcint`: `calc_mcint` and `is_under`.  `calc_mcint` calculates a Monte Carlo integral of a provided function with a provided number of trials.  `is_under` is an internal helper function called in `calc_mcint` that determines if a given point is under the function in question.
 
 ## Usage
 
@@ -36,13 +36,13 @@ func - the function whose integral is to be approximated
 
 ## Details
 
-In addition to returning the estimated integral value, calc_mcint plots the curve and the randomly generated points.  The points are colored red if they are beneath the curve (here, beneath means between the curve and the x-axis), and blue otherwise.  
+In addition to returning the estimated integral value, `calc_mcint` plots the curve and the randomly generated points.  The points are colored red if they are beneath the curve (here, beneath means between the curve and the x-axis), and blue otherwise.  
 
-Note that calc_mcint approximates the integral value of the function, not the absolute value of the area.  Hence, areas beneath the x-axis have a negative value.  
+Note that `calc_mcint` approximates the integral value of the function, not the absolute value of the area.  Hence, areas beneath the x-axis have a negative value.  
 
 ## Contact
 
-Send questions, comments, hate mail to pvillanueva13@gmail.com
+Send questions, comments, hate mail to pvillanueva13 at gmail dot com
 
 
 
